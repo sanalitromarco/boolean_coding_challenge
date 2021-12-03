@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+body{
+  margin-top: 30px;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+div.blocco{
+  width: 65%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding:100px;
+  border-radius:15px 15px;
+}
+header{
+  color: rgb(0, 221, 0);
+}
+header, nav{
+  width: 100%;
+  text-align: center;
+}
+nav{
+  margin: auto;
+  background-color: rgb(0, 221, 0);
+  padding: 7px;
+}
+main{
+  color: white;
+}
+section.opzione{
+padding-top: 25px;
+}
+
+.barra{
+  border-radius:5px 5px;
+  }
+.nome{
+    font-size: 1.3em;
+}
+#logo{
+  width: 200px;
+}
+#first > .barra{
+  width: 250px;
+  /* background-color: orange; */
+  border: 10px solid orange;
+}
+#second > .barra{
+  width: 400px;
+  /* background-color: rgb(0, 221, 0) */
+  border: 10px solid rgb(0, 221, 0);
+}
+#third > .barra{
+  width: 100px;
+  /* background-color: red; */
+  border: 10px solid red;
+}
